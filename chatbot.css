@@ -1,5 +1,10 @@
 .header {
-    background-color: #E0FFE0;
+    background-color: white;
+}
+
+body {
+  background-image: url(http://clipart.heavtryq.com/flowerclipart/f59.purple.b.png);
+background-size: 100%;
 }
 
 h4 {
@@ -24,7 +29,7 @@ h4 {
 }
 
 .btn-talk:hover {
-    background: #4fbcff;
+    background: purple;
     text-decoration: none;
 }
 
@@ -43,18 +48,19 @@ h4 {
     -webkit-border-radius: 5;
     -moz-border-radius: 5;
     border-radius: 5px;
-    height: 450px;
+    height: 900px;
     overflow: scroll;
-    border: 1px solid #C0C2C5;
+    border: 1px solid black;
 }
 
 #chat-area {
     -webkit-border-radius: 5;
     -moz-border-radius: 5;
     border-radius: 5px;
+    color: white;
     height:100%;
     overflow: hidden;
-    height: 450px;
+    height: 1000px;
     border: 1px solid #C0C2C5;
     padding: 10px;
     font-size: 18px;
@@ -65,32 +71,20 @@ h4 {
     -moz-border-radius: 5;
     border-radius: 5px;
     height: 50px;
-    overflow: scroll;
     padding: 2px;
     margin: 0px;
-    border: 1px solid #C0C2C5;
+    border: 1px solid black;
     width: 100%;
 }
 
 #input {
-  background-color: #fff;
+  background-color: transparent;
   border: 0px solid #C0C2C5;
   font-family: sans-serif;
-  color: #000;
+  color: white;
   padding: 5px;
   margin-right: 3px;
   text-decoration: none;
   font-size: 20px;
   width: 80%;
-}
-
-#right-sidebar {
-    -webkit-border-radius: 5;
-    -moz-border-radius: 5;
-    border-radius: 5px;
-    height: 450px;
-    overflow: hidden;
-    border: 0px solid #C0C2C5;
-    font-size: 16px;
-    font-weight: bold;
 }
